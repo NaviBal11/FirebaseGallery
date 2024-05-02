@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    background-color:#ccc5b9 ;
+}
+
+@keyframes infiniteScroll {
+    from {transform: translateX(0)}
+    to {transform: translateX(-50%)}
+  }
+  .container {
+    width: 15%;
+    overflow-x: hidden;
+  }
+  .horizontal-scrolling-items {
+    display: flex;
+    font-size: 20px;
+    width: 2600px;
+    animation-name: infiniteScroll;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+  }
+  .horizontal-scrolling-items__item {
+    white-space: nowrap;
+  }
