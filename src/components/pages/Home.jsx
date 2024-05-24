@@ -2,7 +2,7 @@ import React from "react";
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { Link } from "react-router-dom";
-import resume from "../../assets/NavdeepBal_Webdeveloper_resume.pdf";
+import resume from "../../assets/NavdeepBal_Frontendeveloper_resume.pdf";
 
 export default function Home() {
   return (
